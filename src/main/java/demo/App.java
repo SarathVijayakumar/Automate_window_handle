@@ -10,12 +10,12 @@ public class App {
        // Initialize your test class
 
        // TODO: call your test case functions one after other here
-       SearchAmazon searchAmazon = new SearchAmazon(); // Initialize your SearchAmazon class
+      // SearchAmazon searchAmazon = new SearchAmazon(); // Initialize your SearchAmazon class
 
-        // Call the testCase01 method
-        searchAmazon.testCase01();
-        searchAmazon.endTest();
-        //END Tests
+        // // Call the testCase01 method
+        // searchAmazon.testCase01();
+        // searchAmazon.endTest();
+        // //END Tests
 
 
         //  CountHyperlinks countHyperlinks = new CountHyperlinks();  
@@ -24,8 +24,8 @@ public class App {
         // countHyperlinks.endTest(); 
 
 
-        //     // Call the LinkedIn automation methods here
-        //      // Call the LinkedIn automation methods here
+            // Call the LinkedIn automation methods here
+             // Call the LinkedIn automation methods here
         // LinkedInAutomation linkedInAutomation = new LinkedInAutomation();
         // linkedInAutomation.signInAndPrintCounts();
         // linkedInAutomation.createLinkedInPost();
@@ -38,6 +38,21 @@ public class App {
 
         // // End the test
         // imageAutomation.endTest();
+
+        // NestedFramesTextAutomation automation = new NestedFramesTextAutomation();
+        // automation.testCase01();
+        // automation.endTest();
+
+        // IMDbAutomation imdbAutomation = new IMDbAutomation();
+        // imdbAutomation.testCase01();
+        // imdbAutomation.endTest();
+         
+
+        WindowHandlingAutomation automation = new WindowHandlingAutomation();
+        automation.testCase01();
+        automation.endTest();
+         
+
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
